@@ -1,0 +1,100 @@
+.title-texnology {
+    margin-top: 138px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #01384D;
+}
+
+.texnology-list {
+    margin-top: 87px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    li {
+        display: flex;
+        flex-direction: column;
+        max-width: 307px;
+
+        span {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 35px;
+            text-align: center;
+            color: #01384D;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 26px;
+            text-align: center;
+            color: #01384D;
+            opacity: 0.6;
+        }
+    }
+}
+
+.midle-texnology-list {
+    margin-top: 140px;
+    .midle-texnology-list-item {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        div {
+            width: 45%;
+
+            h3 {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 64px;
+                color: #01384D;
+            }
+
+            p {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 26px;
+                color: #01384D;
+            }
+
+            ul {
+                background: #EABF9F;
+                border: 2px solid #01384D;
+                box-sizing: border-box;
+                border-radius: 8px;
+                list-style-type: circle;
+                span {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 26px;
+                    color: #01384D;
+                }
+            }
+            ol{
+                background: #EABF9F;
+                border: 2px solid #01384D;
+                box-sizing: border-box;
+                border-radius: 8px;
+            }
+        }
+    }
+
+    .midle-texnology-list-item:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+}
+
+
+.card-texnology{
+    display: flex;
+    justify-content: space-between;
+}

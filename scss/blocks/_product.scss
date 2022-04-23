@@ -1,0 +1,139 @@
+.product {
+    padding-top: 100px;
+}
+
+.product-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    color: #01384D;
+}
+
+.product-nav {
+    border-bottom: 1px solid #01384D;
+}
+
+.product-nav-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    li {
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #01384D;
+        opacity: 0.6;
+    }
+}
+
+.product-card-list {
+    margin-top: 54px;
+    max-height: 90vh;
+    overflow: auto;
+}
+
+.product-card-list::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 5px;
+}
+
+.product-card-list:hover::-webkit-scrollbar-thumb {
+    background: rgb(15, 15, 15);
+
+
+}
+
+.product-card-item {
+    width: 100%;
+    max-height: 456px;
+    padding: 30px 40px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #F6FBFF;
+    border: 1px solid #C7DFF5;
+
+}
+
+.product-card-item-left {
+    max-width: 364px;
+}
+
+.product-card-item-right {
+    max-width: 536px;
+
+    h3 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+        color: #01384D;
+
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        span {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #01384D;
+            opacity: 0.6;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 35px;
+            color: #01384D;
+        }
+    }
+
+    .card-info {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        color: #01384D;
+        opacity: 0.6;
+    }
+
+    span {
+        display: block;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35px;
+        color: #01384D;
+
+    }
+
+    span::before {
+        margin-top: 25px;
+        content: 'Narxi';
+        display: block;
+        width: 39px;
+        height: 19px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #01384D;
+        opacity: 0.6;
+    }
+}
+
+.title-aksiya {
+    margin-top: 100px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    color: #01384D;
+}
